@@ -10,3 +10,6 @@ $('form').on('submit', function (e) {
   $input.val('');
 });
 
+$list.on('click', 'li', function (e) {
+  $(this).toggleClass('is-clicked');
+});
